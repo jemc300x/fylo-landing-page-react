@@ -1,10 +1,11 @@
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => (
   <footer className="footer">
     <div className="column1">
-      <a href="/">
+      <Link to="/">
         <svg width="166" height="49" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <defs>
           <path id="a" d="M.014.03h93.96v48.29H.015z"/>
@@ -22,29 +23,35 @@ const Footer = () => (
             </g>
           </g>
         </svg>
-      </a>
+      </Link>
       <p><span><img src="./img/icon-phone.svg" alt="" /></span> Phone: <a href="tel://+1531234567">+1-543-123-4567</a></p>
       <p><span><img src="./img/icon-email.svg" alt="" /></span> <a href="mailto://example@fylo.com">example@fylo.com</a></p>
     </div>
     <div className="column2">
       <ul>
-        <li><a href="/">About Us</a></li>
-        <li><a href="/">Jobs</a></li>
-        <li><a href="/">Press</a></li>
-        <li><a href="/">Blog</a></li>
+        <li><Link to="/about">About Us</Link></li>
+        <li><Link to="/jobs">Jobs</Link></li>
+        <li><Link to="/press">Press</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
       </ul>
     </div>
     <div className="column3">
       <ul>
-        <li><a href="/">Contact Us</a></li>
-        <li><a href="/">Terms</a></li>
-        <li><a href="/">Privacy</a></li>
+        <li><Link to="/contact">Contact Us</Link></li>
+        <li><Link to="/Terms">Terms</Link></li>
+        <li><Link to="/privacy">Privacy</Link></li>
       </ul>
     </div>
     <div className="column4">
-      <a href="/"><i className="fab fa-facebook fa-2x" /></a>
-      <a href="/"><i className="fab fa-twitter fa-2x" /></a>
-      <a href="/"><i className="fab fa-instagram fa-2x" /></a>
+      <a href="/">
+        <i className="fab fa-facebook fa-2x" />
+      </a>
+      <a href="https://twitter.com/jemc300x">
+        <i className="fab fa-twitter fa-2x" />
+      </a>
+      <a href="/">
+        <i className="fab fa-instagram fa-2x" />
+      </a>
     </div>
   </footer>
   
