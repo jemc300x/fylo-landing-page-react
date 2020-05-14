@@ -9,6 +9,7 @@ import Container from '../components/Container/Container';
 import Card from '../components/Card/Card';
 import Newsletter from '../components/Newsletter/Newsletter';
 import Curve from '../components/Curve/Curve';
+import Footer from '../components/Footer/Footer';
 
 const Home = () => {
   return (
@@ -35,7 +36,7 @@ const Home = () => {
         <h2>Stay productive, wherever your are</h2>
         <p className='text-aling-start'>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
         <p className='text-aling-start'>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
-        <div class="section-details-call-to-action">
+        <div className="section-details-call-to-action">
           <a href="/">See how Fylo works <span><img src={iconArrow} alt="Icon Arrow" /></span></a>
         </div>
 
@@ -52,6 +53,8 @@ const Home = () => {
     <Container color='--Desaturated-Blue'>
       <Newsletter></Newsletter>
     </Container>
+
+    <Footer />
 
     </>
   );

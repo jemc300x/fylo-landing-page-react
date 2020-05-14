@@ -3,14 +3,14 @@ import './Card.css';
 import iconQuotes from '../../assets/img/icon-quotes.svg';
 
 const Card = (props) => (
-  <div class="card">
-    <div class="card-head">
+  <div className="card">
+    <div className="card-head">
       <img src={iconQuotes} alt="Quotes" />
     </div>
-    <div class="card-body">
+    <div className="card-body">
       <p>{props.content}</p>
     </div>
-    <div class="card-footer">
+    <div className="card-footer">
       <img src={props.avatar} alt={props.userName} />
       <div>
         <h4>{props.userName}</h4>
