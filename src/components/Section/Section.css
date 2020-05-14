@@ -16,3 +16,70 @@
 .section-details {
   text-align: center;
 }
+
+.section-details h1 {
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.section-details p {
+  margin-bottom: 25px;
+  padding: 0 2%;
+}
+
+.section-details input {
+  width: 75%;
+  border-radius: 3px;
+  padding: 10px;
+  border: 1px solid var(--Very-Dark-Blue);
+  font-family: var(--font-family);
+  color: var(--Light-Gray);
+  margin-bottom: 10px;
+}
+
+.section-details button {
+  width: 80%;
+  background-color: var(--Bright-Blue);
+  padding: 10px;
+  color: var(--Light-Grayish-Blue);
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px 0px var(--Light-Gray);
+  font-family: var(--font-family);
+  font-weight: bold;
+}
+
+@media (min-width: 768px){
+  .section {
+    flex-direction: row-reverse;
+    max-width: var(--desktop-width);
+    margin: 0px auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    align-items: center;
+  }
+
+  .section-details {
+    flex: 50%;
+    text-align: start;
+  }
+
+  .section-details h1 {
+    font-size: 2.5rem;
+    font-family: var(--font-family);
+  }
+
+  .section-details input {
+    width: 55%;
+    margin-right: 10px;
+  }
+  .section-details button {
+    width: 30%;
+  }
+
+  .section-illustration {
+    flex: 50%;
+  }
+
+}

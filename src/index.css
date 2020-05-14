@@ -24,3 +24,8 @@ body{
   margin: 0 auto;
   color: var(--Very-Dark-Blue);
 }
+
+::placeholder{
+  color: var(--Light-Gray);
+}
+
