@@ -1,0 +1,24 @@
+.container{
+  position: relative;
+  padding-top: 1px;
+}
+
+/* .container::before {
+  content: '';
+  position: absolute;
+  background-color: white; 
+  background-image: url(../../assets/img/bg-curve-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 125px;
+  top: 0;
+  left: 0;
+  right: 0;  
+}
+
+@media (min-width: 768px) {
+  .container::before {
+    background-image: url(../../assets/img/bg-curve-desktop.svg);
+  } 
+} */

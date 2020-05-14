@@ -29,3 +29,7 @@ body{
   color: var(--Light-Gray);
 }
 
+.text-aling-start{
+  text-align: start;
+}
+
