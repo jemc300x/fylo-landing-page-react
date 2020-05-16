@@ -28,8 +28,11 @@
   padding: 10px;
   border: 1px solid var(--Very-Dark-Blue);
   font-family: var(--font-family);
-  color: var(--Light-Gray);
   margin-bottom: 10px;
+}
+
+::placeholder {
+  color: var(--Light-Gray);
 }
 
 .newsletter button {
