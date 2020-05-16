@@ -1,4 +1,4 @@
-header{
+.header{
   max-width: var(--desktop-width);
   display: flex;
   justify-content: space-between;
@@ -8,14 +8,15 @@ header{
   padding: 0 5%;
 }
 
-.header-logo img {
-  width: 100px;
+.header-logo{
+  width: 90px;
 }
 
 .header-navbar{
   list-style: none;
   display: inline-flex;
   font-family: var(--font-family);
+  padding: 0;
 }
 
 .header-navbar li {
@@ -29,5 +30,9 @@ header{
 @media (min-width: 768px){
   .header-navbar li {
     margin-right: 25px;
+  }
+
+  .header-logo{
+    width: initial;
   }  
 }

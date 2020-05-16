@@ -37,12 +37,12 @@ const Home = () => {
         <p className='text-aling-start'>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
         <p className='text-aling-start'>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
         <div className="section-details-call-to-action">
-          <a href="/">See how Fylo works <span><img src={iconArrow} alt="Icon Arrow" /></span></a>
+          <a href="/">See how Fylo works <img src={iconArrow} alt="Icon Arrow" /></a>
         </div>
 
         <Card 
           avatar={avatar}
-          userName='Kely Burton'
+          userName='Kyle Burton'
           userDetails='Founder & CEO, Huddle'
           content='Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-olled collaboration machine.'
         />

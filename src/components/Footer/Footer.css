@@ -1,5 +1,5 @@
 .footer{
-  padding: 50px 50px;
+  padding: 80px 50px 50px 50px;
   background-color: var(--Very-Dark-Blue);
   color: var(--Light-Grayish-Blue);
   display: flex;
@@ -20,12 +20,12 @@
 }
 
 .column1, .column2, .column3, .column4 {
-  padding-top: 50px;
-  
+  padding-bottom: 25px;
 }
 
-.column1 > svg {
-  padding-bottom: 40px;
+
+.column1 svg {
+  margin-bottom: 30px;
 }
 
 .column1 p {
@@ -46,7 +46,25 @@
 
 @media (min-width: 768px) {
   .footer {
+    padding-top: 180px;
+    padding-bottom: 10px;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .column1 {
+    flex: 50%;
+    margin-top: -85px;
+  }
+  .column2 {
+    flex: 20%;
+  }
+  .column3 {
+    flex: 20%;
+  }
+  .column4 {
+    flex: 30%;
+    text-align: start;
+    padding-right: 50px;
   }
 }

@@ -1,6 +1,8 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import iconPhone from '../../assets/img/icon-phone.svg';
+import iconEmail from '../../assets/img/icon-email.svg';
 
 const Footer = () => (
   <footer className="footer">
@@ -24,8 +26,8 @@ const Footer = () => (
           </g>
         </svg>
       </Link>
-      <p><span><img src="./img/icon-phone.svg" alt="" /></span> Phone: <a href="tel://+1531234567">+1-543-123-4567</a></p>
-      <p><span><img src="./img/icon-email.svg" alt="" /></span> <a href="mailto://example@fylo.com">example@fylo.com</a></p>
+      <p><span><img src={iconPhone} alt="" /></span> Phone: <a href="tel://+1531234567">+1-543-123-4567</a></p>
+      <p><span><img src={iconEmail} alt="" /></span> <a href="mailto://example@fylo.com">example@fylo.com</a></p>
     </div>
     <div className="column2">
       <ul>

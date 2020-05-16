@@ -2,12 +2,13 @@
   display: flex;
   flex-direction: column;
   padding: 0px 5%;
+  padding-top: 30px;
   padding-bottom: 90px;
 }
 
 .section-illustration {
   align-self: center;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .section-illustration img {
@@ -26,25 +27,24 @@
 .section-details h2 {
   margin-bottom: 25px;
   font-size: 1.2rem;
+  font-family: var(--font-family);
 }
 
 .section-details p {
-  margin-bottom: 25px;
-  padding: 0 2%;
+  margin-bottom: 20px;
 }
 
 .section-details input {
-  width: 75%;
+  width: 90%;
   border-radius: 3px;
   padding: 10px;
   border: 1px solid var(--Very-Dark-Blue);
   font-family: var(--font-family);
-  color: var(--Light-Gray);
   margin-bottom: 10px;
 }
 
 .section-details button {
-  width: 80%;
+  width: 90%;
   background-color: var(--Bright-Blue);
   padding: 10px;
   color: var(--Light-Grayish-Blue);
@@ -60,12 +60,18 @@
   padding-bottom: 50px;
 }
 
+.section-details-call-to-action img{
+  width: 25px;
+  margin-left: 5px;
+}
+
 .section-details a {
   color: var(--Moderate-Cyan);
   text-decoration: none;
-  border-bottom: 1px solid;
+  border-bottom: 1.5px solid;
   padding: 5px;
   margin: 20px 0 20px 0;
+  display: inline-flex;
 }
 
 @media (min-width: 768px){
@@ -73,6 +79,7 @@
     flex-direction: row-reverse;
     max-width: var(--desktop-width);
     margin: 0px auto;
+    padding-top: 50px;
     padding-bottom: 100px;
     align-items: center;
   }
@@ -88,8 +95,13 @@
   
   }
 
+  .section-details h2 {
+    font-size: 2rem;
+  }
+
   .section-details p {
     padding: 0;
+    max-width: 540px;
   }
 
   .section-details input {
